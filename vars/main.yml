@@ -1,0 +1,8 @@
+---
+# vars file for uaa
+uaa_platform: '{{ uaa_os }}-{{ uaa_arch }}'
+uaa_exe: uaa-{{ uaa_platform }}-{{ uaa_ver }}{{ uaa_dotexe | default("") }}
+uaa_url: '{{ uaa_mirror }}/{{ uaa_ver }}/{{ uaa_exe }}'
+uaa_checksum: '{{ uaa_checksums[uaa_ver][uaa_platform] }}'
+uaa_installed_exe: '{{ uaa_install_dir }}/{{ uaa_exe }}'
+uaa_installed_link: '{{ uaa_install_dir }}/uaa'

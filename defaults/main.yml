@@ -1,0 +1,15 @@
+---
+# defaults file for uaa
+uaa_ver: 0.10.0
+uaa_os: linux
+uaa_arch: amd64
+uaa_install_dir: /usr/local/bin
+uaa_mirror: https://github.com/cloudfoundry-incubator/uaa-cli/releases/download
+uaa_checksums:
+  '0.10.0':
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.10.0/uaa-darwin-amd64-0.10.0
+    darwin-amd64: sha256:482cd886a2abd60678c292b126e4c869c1305a610fbe8d05a78207e22edeff88
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.10.0/uaa-linux-amd64-0.10.0
+    linux-amd64: sha256:7bba25a8bb13a006b59bc649f9f0ffbc465bf5f4717c02ea2d99a343b57451c2
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.10.0/uaa-windows-amd64-0.10.0.exe
+    windows-amd64: sha256:1ecf38e2b7692dd7c3a7c52f38e832fca84bee7854c59fa1c97cff159a64aad0
