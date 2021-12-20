@@ -1,6 +1,6 @@
 andrewrothstein.uaa
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-uaa.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-uaa)
+![Build Status](https://github.com/andrewrothstein/ansible-uaa/actions/workflows/build.yml/badge.svg)
 
 Installs the [uaa-cli](https://github.com/cloudfoundry-incubator/uaa-cli)
 
