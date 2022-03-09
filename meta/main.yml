@@ -18,12 +18,11 @@ galaxy_info:
         - bullseye
     - name: EL
       versions:
-        - 7
         - 8
     - name: Fedora
       versions:
-        - 34
         - 35
+        - 36
     - name: Ubuntu
       versions:
         - bionic
@@ -33,5 +32,4 @@ galaxy_info:
   role_name: uaa
 
 dependencies:
-  - role: andrewrothstein.alpine-glibc-shim
-    version: v2.0.15
+  - andrewrothstein.alpine-glibc-shim
