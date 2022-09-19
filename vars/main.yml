@@ -1,5 +1,7 @@
 ---
 # vars file for uaa
+uaa_os: '{{ ansible_system | lower }}'
+uaa_arch: '{{ uaa_arch_map[ansible_architecture] }}'
 uaa_platform: '{{ uaa_os }}-{{ uaa_arch }}'
 uaa_exe: uaa-{{ uaa_platform }}-{{ uaa_ver }}{{ uaa_dotexe | default("") }}
 uaa_url: '{{ uaa_mirror }}/{{ uaa_ver }}/{{ uaa_exe }}'
