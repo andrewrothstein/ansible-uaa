@@ -1,6 +1,6 @@
 ---
 # defaults file for uaa
-uaa_ver: 0.10.0
+uaa_ver: 0.15.0
 uaa_arch_map:
   x86_64: amd64
 uaa_install_dir: /usr/local/bin
@@ -13,3 +13,38 @@ uaa_checksums:
     linux-amd64: sha256:7bba25a8bb13a006b59bc649f9f0ffbc465bf5f4717c02ea2d99a343b57451c2
     # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.10.0/uaa-windows-amd64-0.10.0.exe
     windows-amd64: sha256:1ecf38e2b7692dd7c3a7c52f38e832fca84bee7854c59fa1c97cff159a64aad0
+  '0.11.0':
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.11.0/uaa-darwin-amd64-0.11.0
+    darwin-amd64: sha256:17fb6dd35639ba9188a00fb451ac9ca9b303026ffdfca8f92110c7de28ceacac
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.11.0/uaa-linux-amd64-0.11.0
+    linux-amd64: sha256:4eeeb27f9d52c64b08aec89c091f74059396616708a3565ac9845cc7f598c7f3
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.11.0/uaa-windows-amd64-0.11.0.exe
+    windows-amd64: sha256:ac2d8b264d3e7e0b62f8026c9ca7f1319f4e6bd8a364833af4ca363622a654a3
+  '0.12.0':
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.12.0/uaa-darwin-amd64-0.12.0
+    darwin-amd64: sha256:e82b825d226495e3e0d86fdfb88fddf97f3c861bd7894828f0d1da28b590a2d7
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.12.0/uaa-linux-amd64-0.12.0
+    linux-amd64: sha256:ecadd6a72b009b8e298bd8fa2b81ffd3c4c2fc4fee2af236a3dd84d74bda3e6f
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.12.0/uaa-windows-amd64-0.12.0.exe
+    windows-amd64: sha256:30045e20e98216df743ff2a87c62cc2e16367053161dbf05450db8235f81c1a7
+  '0.13.0':
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.13.0/uaa-darwin-amd64-0.13.0
+    darwin-amd64: sha256:cec4fc93dd49204e8c6a2a5478d09fb09123095c24543262ee81ea0e1006166e
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.13.0/uaa-linux-amd64-0.13.0
+    linux-amd64: sha256:3a31651723dde2e4c2ee987b4a81a930ca884a5f2a58fe957ca756ec5d42e5ce
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.13.0/uaa-windows-amd64-0.13.0.exe
+    windows-amd64: sha256:885e3213ebbcf8b569ff0e32e647784e0fb0b3011a6fc524e9ec9f1afcadf3c7
+  '0.14.0':
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.14.0/uaa-darwin-amd64-0.14.0
+    darwin-amd64: sha256:60a85288aba95de53874ff4bf8407053ece8296a91c0de02ebe8707bfebb2e28
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.14.0/uaa-linux-amd64-0.14.0
+    linux-amd64: sha256:0c3238264bd37cbeade13f1ca04b7fe3846ee70d057137d8914893e2e6d503e9
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.14.0/uaa-windows-amd64-0.14.0.exe
+    windows-amd64: sha256:39939af8eece970b635ad6e0758270d3378aed569eb21b166657785965cd7293
+  '0.15.0':
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.15.0/uaa-darwin-amd64-0.15.0
+    darwin-amd64: sha256:6f2d4e54391670995b2821931cfa31a7343a1418f0f48beb521c50b09d2fa35e
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.15.0/uaa-linux-amd64-0.15.0
+    linux-amd64: sha256:1a82ac561f4d3ba2d5f4e9da72fd840c192ac7a19cd3aea72a726a05e20d4f8d
+    # https://github.com/cloudfoundry-incubator/uaa-cli/releases/download/0.15.0/uaa-windows-amd64-0.15.0.exe
+    windows-amd64: sha256:a2d9a64b7013bf2e7b0bad0f022d89fa7ef298d77272ae03f8644fa9f085b05b
